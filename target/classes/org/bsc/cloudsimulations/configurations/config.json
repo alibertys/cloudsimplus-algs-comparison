@@ -1,0 +1,12 @@
+{
+  "homogeneous": {
+    "vmAllocationPolicy": "org.cloudsimplus.allocationpolicies.VmAllocationPolicyBestFit",
+    "vmScheduler": "org.cloudsimplus.schedulers.vm.VmSchedulerSpaceShared",
+    "cloudletScheduler": "org.cloudsimplus.schedulers.cloudlet.CloudletSchedulerTimeShared"
+  },
+  "heterogeneous": {
+    "vmAllocationPolicy": "org.cloudsimplus.allocationpolicies.VmAllocationPolicyBestFit",
+    "vmScheduler": "org.cloudsimplus.schedulers.vm.VmSchedulerSpaceShared",
+    "cloudletScheduler": "org.cloudsimplus.schedulers.cloudlet.CloudletSchedulerTimeShared"
+  }
+}
